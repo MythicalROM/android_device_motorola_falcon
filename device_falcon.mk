@@ -38,5 +38,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.radio.no_wait_for_card=1 \
 	persist.radio.dfr_mode_set=1
 
+# Vendor init module
+PRODUCT_PACKAGES += \
+	libinit_msm
+
 $(call inherit-product, device/motorola/msm8226-common/keylayout/keylayout.mk)
 $(call inherit-product, vendor/motorola/falcon/falcon-vendor.mk)
