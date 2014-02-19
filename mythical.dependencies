@@ -18,10 +18,10 @@
     "revision":    "myth-4.4"
   },
   {
-    "remote":      "mythical",
-    "repository":  "android_vendor_motorola",
+    "remote":      "github",
+    "repository":  "razrqcom-dev-team/proprietary_vendor_motorola",
     "target_path": "vendor/motorola",
-    "revision":    "myth-4.4"
+    "revision":    "cm-11.0"
   },
   {
     "remote":      "mythical",
